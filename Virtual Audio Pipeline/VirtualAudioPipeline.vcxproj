@@ -39,7 +39,13 @@
     <ClInclude Include="wavtable.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="vrtaupipe.inf" />
+    <Inf Include="VirtualAudioPipeline.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <FilesToPackage Include="./x64/Debug/VirtualAudioPipeline.sys" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      <PackageRelativeDirectory>
+      </PackageRelativeDirectory>
+    </FilesToPackage>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6494932B-86BA-48B1-B761-46726FB430D9}</ProjectGuid>

@@ -67,6 +67,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vrtaupipe.inf" />
+    <Inf Include="VirtualAudioPipeline.inf" />
   </ItemGroup>
 </Project>
